@@ -1,0 +1,10 @@
+let font; 
+function preload() {
+    font = loadFont('assets/ComicNeue-Bold.ttf');
+}
+createCanvas(100, 100);
+   background(200);
+   let bbox = font.textBounds("Hello", 0, 0, 24);
+   rect(bbox.x, bbox.y, bbox.w, bbox.h);
+   textFont(font);
+   text(" S F R D I E N", 10, 50);      
