@@ -1,3 +1,3 @@
 function showImage() {
-  document.getElementById("myImage").src = "img/IMG2.png";
+  document.getElementById("myImage").src = "img/IMG2.PNG";
 }
